@@ -1,0 +1,12 @@
+#criar-tarefa {
+  background-color: blue;
+}
+
+.grayBackground {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  background-color: white;
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
