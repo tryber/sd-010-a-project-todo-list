@@ -1,0 +1,14 @@
+.completed {
+  text-decoration: line-through solid black;
+}
+
+body {
+  background-color: rgb(42 , 153 , 42);
+}
+
+#main {
+  background-color: white;
+  width: 60%;
+  padding: 20px;
+  border-radius: 10px;
+}
