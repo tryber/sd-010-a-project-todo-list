@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloco 5 - Projeto - Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+    </header>
+    <section>
+      <h4>Digite o nome para uma nova tarefa</h4>
+      <div>
+        <!-- From https://www.w3schools.com/tags/tag_input.asp-->
+        <input type="text" id="texto-tarefa" />
+        <button id="criar-tarefa">Adicionar nova tarefa</button>
+      </div>
+    </section>
+    <section>
+      <h4 id="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo
+      </h4>
+      <div class="list-container">
+        <ol id="lista-tarefas">
+        </ol>
+      </div>
+    </section>
+    <section>
+      <h4>Recursos Adicionais</h4>
+      <div>
+        <button id="apaga-tudo">Limpar Lista</button>
+        <button id="remover-finalizados">Limpar Completos</button>
+        <button id="salvar-lista">Salvar Lista</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

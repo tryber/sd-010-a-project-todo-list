@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
