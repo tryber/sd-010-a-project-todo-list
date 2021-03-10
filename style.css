@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.list {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.completed {
+  text-decoration: line-through solid Black;
+}
+
+.button {
+  background: transparent;
+  border: transparent;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+}
+
+input {
+  border: 1px solid white;
+  color: black;
+  font-family: monospace, sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+footer {
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+}
+
+#funcionamento {
+  color: rgba(0, 0, 0, 0.521);
+}

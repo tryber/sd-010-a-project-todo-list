@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id= 'funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+</header>
+<body>
+    <section>
+    <input id='texto-tarefa' type='text'>
+    <button id='criar-tarefa' class='button'><i class="fas fa-plus"></i></button>
+    <ol id='lista-tarefas' class='list'></ol>
+    </section>
+    <section>
+        <button id='apaga-tudo' class='button'><i class="fas fa-times"></i></button>
+        <button id='mover-cima' class='button'><i class="fas fa-chevron-up"></i></button>
+        <button id='mover-baixo' class='button'><i class="fas fa-chevron-down"></i></button>
+        <button id='salvar-tarefas' class='button'><i class="fas fa-save"></i></button>
+        <button id='remover-finalizados' class='button'>Remover tarefas finalizadas</button>
+        <button id='remover-selecionado' class='button'>Remover tarefa selecionada</button>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bfa2fef1f7.js" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <p>Project ToDo List</p>
+    <p>Giovanni Maldonado, 2021</p> 
+</footer>
+</html>
