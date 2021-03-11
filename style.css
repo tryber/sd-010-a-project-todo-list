@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  background-color: gray;
+}
+
+/* Referência https://www.w3schools.com/howto/howto_css_arrows.asp */
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+}
+
+.btn {
+  border-radius: 15px;
+}
+
+#apaga-tudo , #remover-selecionado {
+  background-color: red;
+}
+
+#mover-cima , #mover-baixo {
+  background-color: orange;
+}
+
+#salvar-tarefas {
+  background-color: green;
+}
+
+#remover-finalizados , #criar-tarefa {
+  background-color: blue;
+}
