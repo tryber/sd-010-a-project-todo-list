@@ -1,0 +1,59 @@
+body {
+  background: rgb(236 , 189 , 60);
+}
+
+body , button , input {
+  font-family: Inter, sans-serif;
+  color: rgb(71 , 71 , 71);
+}
+
+main {
+  max-width: 900px;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-style: italic;
+}
+
+button {
+  background-color: rgb(100 , 100 , 100);
+  color: white;
+  border: 3px solid rgb(78 , 78 , 78);
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+input {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 3px solid rgb(78 , 78 , 78);
+  margin-right: 5px;
+}
+
+ol {
+  padding-left: 0;
+}
+
+li {
+  list-style-position: inside;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  color: white;
+}
