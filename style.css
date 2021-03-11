@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: cornflowerblue;
+  margin-left: 50px;
+}
+#criar-tarefa {
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 16px;
+  border-style: none;
+}
+
+#div-principal{
+    display: inline-block;
+    
+}
+
+#texto-tarefa {
+  border-radius: 2px;
+  border-style: none;
+  width: 250px;
+  height: 30px;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);  
+}
+
+#apaga-tudo{
+width: 90px;
+height: 40px;    
+}
+
+#remover-finalizados {
+  width: 90px;
+  height: 40px;   
+}
+
+#div2 {
+  margin-top: 100px;
+  margin-left: 250px;  
+}
