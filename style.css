@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+/* --------------- header ----------- */
+header {
+    text-align: center;
+    font-size: 3vw;
+}
+
+/* -------------- main ------------- */
+#funcionamento {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#input-container {
+    text-align: center;
+    margin: 30px;
+}
+
+#texto-tarefa {
+    text-align: center;
+    border: solid 1px black;
+    font-size: 1.5vw;
+}
+
+#button-container {
+    text-align: center;
+}
+
+#criar-tarefa {
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5vw;
+    box-shadow: 10px 4px 4px black;
+}
+
+#list-container {
+    border: solid 1px black;
+    margin: 30px;
+}
+
+.active {
+    background-color: gray;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#apaga-tudo {
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5vw;
+    box-shadow: 10px 4px 4px black;
+}
+
+#remover-finalizados {
+    margin: 15px;
+    text-align: center;
+    font-size: 1.4vw;
+    box-shadow: 10px 4px 4px black;
+}
