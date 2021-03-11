@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 , p {
+  font-family: Inter, sans-serif;
+}
+
+
+button {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+body {
+  background: rgb(255 , 250 , 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  font-family: Amatic SC, cursive;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#lista-tarefas {
+  margin: 25px 0;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#tools {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  gap: 15px;
+}
+
+#criar-tarefa , #salvar-tarefas {
+  background: green;
+}
+
+#remover-selecionado , #remover-finalizados , #apaga-tudo {
+  background: red;
+}
+
+#arrows {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#arrows img {
+  width: 20px;
+  height: 20px;
+}
+
+#arrows button {
+  width: 50px;
+  height: 22.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  transition: scale 0.4s;
+}
+
+#arrows button:hover {
+  transform: scale(1.2);
+  border: 1px solid black;
+}
+
+#mover-baixo img {
+  transform: rotate(180deg);
+}

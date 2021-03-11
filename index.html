@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <title>Mallmann02 Todo List Project</title>
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+  </header>
+
+  <div>
+    <input id="texto-tarefa">
+    <button id='criar-tarefa'>Adicionar Tarefa</button>
+  </div>
+
+  <ol id="lista-tarefas">
+
+  </ol>
+
+  <div id="tools">
+    <button id="remover-selecionado">Remover selecionado</button>
+    <button id="remover-finalizados">Remover finalizados</button>
+    <button id="salvar-tarefas">Salvar lista</button>
+    <div id="arrows">
+      <button id="mover-cima"> <img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png"/> </button>
+      <button id="mover-baixo"> <img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png"/> </button>
+    </div>
+    <hr>
+    <button id="apaga-tudo">Apagar tudo</button>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>
