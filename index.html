@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8c5e05b8e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <section id="section-board">
+        <header id="header-title">
+            <h1>Minha Lista de Tarefas</h1>
+            <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        </header>
+
+        <section id="section-task">
+            <ol id="lista-tarefas">
+            </ol>
+        </section>
+    </section>
+
+    <section id="section-btns">
+        <div id="add">
+            <input id="texto-tarefa" type="text" onfocus="this.value" value="">
+            <button id="criar-tarefa">Adicionar</button>
+        </div>
+        <div id="remove">
+            <button id="apaga-tudo" class="red">Apagar tudo</button>
+            <button id="remover-finalizados" class="red">Apagar completo</button>
+            <button id="remover-selecionado" class="red">Apagar selecionado</button>
+        </div>
+        <div id="move">
+            <button id="mover-cima" class="blue"><span class="fas fa-arrow-up"></span></button>
+            <button id="mover-baixo" class="blue"><span class="fas fa-arrow-down"></span></button>
+        </div>
+        <div id="save">
+            <button id="salvar-tarefas" class="green"><span class="far fa-save"></span></button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
