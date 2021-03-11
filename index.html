@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minha Lista de Tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+</header>
+<main>
+    <section id="form-add-task">
+        <input id="texto-tarefa" type="text" aria-label="Adiciona uma tarefa">
+        <button id="criar-tarefa" type="button">Adicionar</button>
+    </section>
+    <section id="ol-task">
+        <ol id="lista-tarefas"></ol>
+    </section>
+    <section>
+        <button id="apaga-tudo" class="btn btn-danger">Apagar Tudo</button>
+        <button id="remover-finalizados" class="btn btn-danger">Apagar Finalizadas</button>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
