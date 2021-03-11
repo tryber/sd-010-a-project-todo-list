@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(140, 164, 96);
+  color: rgb(235, 213, 173);
+  transition-duration: 0.5s;
+}
+
+p {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+#content {
+  background-color: rgb(96, 141, 96);
+  border-radius: 30px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+#list {
+  background-color: rgb(235, 213, 173);
+  border-radius: 10px;
+  padding: 10px 25px 10px 0;
+}
+
+ol {
+  color: rgb(120, 115, 169);
+  font-weight: 600;
+}
+
+li:hover {
+  transform: scale(1.05, 1.05);
+  cursor: pointer;
+}
+
+.item-selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.item {
+  background-color: initial;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+section {
+  margin-top: 20px;
+}
+/* Personalizar buttons e inputs */
+button {
+  font-size: 16px;
+  background-color: rgb(0, 185, 71);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid rgb(0, 185, 71);
+  transition-duration: 0.5s;
+  box-shadow: 0 4px rgb(153, 153, 153);
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(0, 124, 48);
+  border: 1px solid rgb(0, 185, 71);
+}
+
+button:active {
+  box-shadow: 0 2px rgb(102, 102, 102);
+  transform: translateY(2px);
+}
+
+input {
+  padding: 15px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background-color: rgb(235, 213, 173);
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
