@@ -1,0 +1,7 @@
+h1 {
+  font-family: monospace, sans-serif;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
