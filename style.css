@@ -1,0 +1,14 @@
+/* Este site pode ser visto rodando na url 
+https://rogerio-lambert.github.io/javaScript-DOM/todo/toDoList.html */
+.selected {
+  background-color: grey;
+}
+
+#texto-tarefa {
+  display: inline-block;
+  width: 400px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
