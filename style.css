@@ -1,0 +1,79 @@
+body {
+  background-color: aquamarine;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+  color: blueviolet;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#funcionamento {
+  font-style: italic;
+}
+
+#texto-tarefa {
+  width: 400px;
+  height: 30px;
+}
+
+#criar-tarefa {
+  width: 150px;
+  height: 35px;
+  background-color: blueviolet;
+  color: white;
+  border: 5px solid black;
+}
+
+#lista-tarefas li {
+  width: 800px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#apaga-tudo {
+  background-color: magenta;
+  width: 150px;
+  height: 35px;
+  border: 5px solid black;
+}
+
+#remover-finalizados {
+  background-color: pink;
+  width: 150px;
+  height: 35px;
+  border: 5px solid black;
+}
+
+#salvar-tarefas {
+  background-color: lightblue;
+  width: 150px;
+  height: 35px;
+  border: 5px solid black;
+}
+
+#mover-cima {
+  background-color: orange;
+  width: 50px;
+  height: 35px;
+  border: 5px solid black;
+}
+
+#mover-baixo {
+  background-color: orange;
+  width: 50px;
+  height: 35px;
+  border: 5px solid black;
+}
+
+#remover-selecionado {
+  background-color: palevioletred;
+  width: 170px;
+  height: 35px;
+  border: 5px solid black;
+}
