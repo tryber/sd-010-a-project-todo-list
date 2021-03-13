@@ -1,0 +1,52 @@
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#lista-tarefas {
+  height: 150px;
+  background-color: white;
+  width: 40%;
+  border-radius: 20px;
+}
+
+body {
+  background-color: rgb(43 , 43 , 44);
+  margin-left: 30px;
+}
+
+.list-item {
+  width: fit-content;
+}
+
+header {
+  color: white;
+}
+
+#criar-tarefa {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+#apaga-tudo {
+  background-color: red;
+  border-radius: 10px;
+}
+
+#remover-finalizados {
+  background-color: rgba(192 , 37 , 37 , 0.76);
+  border-radius: 10px;
+}
+
+#salvar-tarefas {
+  background-color: green;
+  border-radius: 10px;
+}
+
+#funcionamento {
+  color: white;
+}
+
+#remover-selecionado {
+  border-radius: 10px;
+  background-color: rgb(255 , 50 , 50);
+}
