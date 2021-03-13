@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Montserrat:ital,wght@0,300;0,500;0,600;1,300&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">
+          Clique duas vezes em um item para marcá-lo como completo
+        </p>
+        <div class="commands">
+          <input
+            type="text"
+            id="texto-tarefa"
+            placeholder="Digite sua tarefa aqui"
+          />
+          <button id="criar-tarefa">Criar</button>
+          <button id="apaga-tudo">Limpar lista</button>
+          <button id="remover-finalizados">Remover finalizados</button>
+          <button id="salvar-tarefas">Salvar</button>
+          <button id="mover-cima">Cima</button>
+          <button id="mover-baixo">Baixo</button>
+          <button id="remover-selecionado">Remover selecionado</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <ol id="lista-tarefas"></ol>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

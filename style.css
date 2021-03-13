@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(251 , 255 , 254);
+}
+
+.header {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+
+.header-content {
+  background-color: rgb(64 , 121 , 140);
+  text-align: center;
+  height: 180px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+.header-content h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+}
+
+#funcionamento {
+  font-family: Barlow Condensed, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.commands {
+  position: relative;
+  top: 20px;
+}
+
+#texto-tarefa {
+  background-color: white;
+  color: rgb(34 , 34 , 34);
+  border: 1px solid rgb(170 , 170 , 170);
+  border-radius: 4px;
+  box-shadow: 0 0 8px -3px rgb(136 , 136 , 136);
+  position: relative;
+  width: 400px;
+  height: 25px;
+  padding-left: 5px;
+}
+
+#criar-tarefa {
+  border: 1px solid rgb(170 , 170 , 170);
+  border-radius: 4px;
+  box-shadow: 0 0 8px -3px rgb(136 , 136 , 136);
+  height: 25px;
+  width: 50px;
+}
+
+#texto-tarefa:focus , #criar-tarefa:focus {
+  outline: none;
+}
+
+.selected {
+  background-color: gray;
+}
