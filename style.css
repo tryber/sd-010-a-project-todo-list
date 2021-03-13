@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(52 , 78 , 65);
+}
+
+#functional-area {
+  background-color: rgb(88 , 129 , 87);
+  width: 60%;
+  height: fit-content;
+  position: float;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(218 , 215 , 205);
+}
+
+button {
+  background-color: rgb(163 , 177 , 138);
+  color: rgb(52 , 78 , 65);
+}
+
+#criar-tarefa {
+  display: inline-block;
+}
+
+form {
+  display: inline-block;
+}
+
+ol {
+  background-color: rgb(218 , 215 , 205);
+}
+
+#buttons {
+  margin-right: auto;
+  margin-left: auto;
+  position: float;
+  width: fit-content;
+}
+
+.selected {
+  background-color: gray;
+  color: rgb(218 , 215 , 205);
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
