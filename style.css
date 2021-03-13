@@ -1,0 +1,60 @@
+#funcionamento {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15 , 17 , 15);
+  font-weight: 900;
+}
+
+body {
+  background-color: rgb(173 , 188 , 231);
+}
+
+section {
+  font-family: serif;
+  background-color: violet;
+  padding: 30px;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(17 , 11 , 11);
+}
+
+#criar-tarefa {
+  border-radius: 3px;
+  background-color: rgb(75 , 182 , 214);
+  font-family: monospace;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+#texto-tarefa {
+  border-radius: 5px;
+  background-color: rgb(211 , 208 , 208);
+}
+
+#apaga-tudo {
+  border-radius: 5px;
+  background-color: rgb(75 , 182 , 214);
+  cursor: pointer;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+#remover-finalizados{
+  border-radius: 5px;
+  background-color: rgb(75 , 182 , 214);
+  cursor: pointer;
+}
+
+#salvar-tarefas {
+  border-radius: 5px;
+  background-color: rgb(75 , 182 , 214);
+  cursor: pointer;
+}
+
+
