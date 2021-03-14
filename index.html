@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TODO List</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <section>
+      <form id="task-form" action="">
+        <input id="texto-tarefa" type="text" placeholder="Digite uma tarefa">
+        <button id="criar-tarefa">Adicionar</button>
+      </form>
+      <ol id="lista-tarefas"></ol>
+      <button id="remover-selecionado">Apagar Item</button>
+      <button id="apaga-tudo">Apagar tudo</button>
+      <button id="mover-cima">🔺</button>
+      <button id="mover-baixo">🔻</button>
+      <button id="remover-finalizados">Remover Finalizados</button>
+      <button id="salvar-tarefas">Salvar</button>
+      
+    </section>  
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

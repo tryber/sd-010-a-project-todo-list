@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: white;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+  background-color: lime;
+  border-radius: 20px;
+}
+
+header , section , ol {
+  margin: 20px;
+}
+
+button {
+  padding: 3px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
