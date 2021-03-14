@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1> <!--REQUISITO 1-->
+    </header>
+    <section id='funcionamento'> <!--REQUISITO 2-->
+        <p>Clique duas vezes em um item para marcá-lo como completo</p>
+    </section>
+    <section>
+        <input id='texto-tarefa'type="text"> <!--REQUISITO 3-->
+        <button id='criar-tarefa' type='text'>Criar Tarefa</button>
+    </section>
+    <section>
+        <ol id='lista-tarefas'></ol> <!--REQUISITO 4-->
+    </section>
+    <section>
+        <button id='apaga-tudo'>Excluir Tudo</button><!--REQUISITO 10-->
+        <button id='remover-finalizados'>Excluir Finalizado</button><!--REQUISITO 11-->
+        <button id='salvar-tarefas'>Salvar Lista</button><!--REQUISITO 12-->
+    </section>
+    
+<script src="script.js"></script>    
+</body>
+</html>
