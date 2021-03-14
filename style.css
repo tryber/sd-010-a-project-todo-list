@@ -1,0 +1,59 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(62 , 109 , 178);
+  border-bottom: 10px solid rgb(126 , 202 , 215);
+  font-size: x-large;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+#funcionamento {
+  font-size: small;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+#selected {
+  background-color: gray;
+  border-radius: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  margin-right: 80%;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+button {
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  background-color: rgb(62 , 109 , 178);
+  color: white;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: smaller;
+  text-align: center;
+}
