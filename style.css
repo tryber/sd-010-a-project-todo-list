@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: rgba(218 , 223 , 5 , 1);
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  background-color: gray;
+}
+
+/* Header */
+#container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+#container header {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+#container header p {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 19px;
+  padding-top: 9px;
+}
+
+/* ToDos */
+#todos {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#todos #texto-tarefa {
+  padding: 2px;
+}
+
+.estilo-botao {
+  background-color: rgba(87 , 139 , 214 , 1);
+  border: none;
+  padding: 4px 15px;
+  border-radius: 4px;
+  color: white;
+}
+
+#todos #lista-tarefas {
+  padding-left: 20px;
+  margin-top: 20px;
+}
