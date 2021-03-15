@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Minha lista de tarefas</title>
+</head>
+
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+  <h2 id="funcionamento">Clique duas vezes em um item
+    para marcá-lo como completo</h2>
+  <section>
+    <div class="container">
+      <input id="texto-tarefa" type="text">
+      <button id="criar-tarefa"><i class="fas fa-plus"></i> </button>
+      <ol id="lista-tarefas">
+      </ol>
+      <button id="apaga-tudo" class="buttons">Limpar</button>
+      <button id="remover-finalizados" class="buttons">Limpar Finalizados</button>
+      <button id="salvar-tarefas" class="buttons">Salvar</button>
+      <button id="mover-cima"><i class="fas fa-arrow-up"></i></button>
+      <button id="mover-baixo"><i class="fas fa-arrow-down"></i></button>
+      <button id="remover-selecionado"><i class="fas fa-minus-circle"></i></button>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
