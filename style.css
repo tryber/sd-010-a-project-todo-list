@@ -1,0 +1,56 @@
+button {
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 45%;
+  border: 2px solid black;
+  color: white;
+}
+
+header {
+  font-size: 30px;
+}
+
+#funcionamento {
+  margin-bottom: 20px;
+}
+
+#texto-tarefa {
+  line-height: 25px;
+}
+
+#criar-tarefa {
+  background-color: teal;
+}
+
+#apaga-tudo {
+  background-color: red;
+}
+
+#salvar-tarefas {
+  background-color: brown;
+}
+
+#mover-cima {
+  background-color: #007910;
+}
+
+#mover-baixo {
+  background-color: #867900;
+}
+
+#remover-finalizados {
+  background-color: blueviolet;
+}
+
+#box-list {
+  margin-top: 20px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.colorList {
+  background-color: gray;
+}
