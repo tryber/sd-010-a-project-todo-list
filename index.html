@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>todo-list</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <input id="texto-tarefa"> 
+    <button id="criar-tarefa">Adicionar</button>
+    <ol id="lista-tarefas">
+
+    </ol>
+    <p class="selected"></p>
+    <input type="button" value="Apaga tudo" id="apaga-tudo" onclick="removeList()" />
+    <script src="script.js"></script>
+  </body>
+</html>
