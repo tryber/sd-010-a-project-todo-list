@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: greenyellow;
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  margin: 20px 0;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#card {
+  margin: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#texto-tarefa {
+  padding: 3px 0;
+}
+
+#criar-tarefa {
+  background-color: rgb(26 , 145 , 218);
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  padding: 5px 20px;
+}
+
+#tasks-area {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#apaga-tudo {
+  background-color: rgb(188 , 17 , 17);
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  padding: 5px 20px;
+}
+
+#remover-finalizados {
+  background-color: rgb(231 , 91 , 26);
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  padding: 5px 20px;
+}
