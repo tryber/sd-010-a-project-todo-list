@@ -1,0 +1,16 @@
+#texto-tarefa {
+  float: left;
+  margin-right: 40px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  background-color: gray;
+}
+
+body {
+  background-color: darkslategrey;
+}
