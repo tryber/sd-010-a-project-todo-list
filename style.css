@@ -1,0 +1,15 @@
+.bkGray {
+  background-color: gray;
+}
+
+#lista-tarefas {
+  list-style-position: inside;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+body {
+  text-align: center;
+}
