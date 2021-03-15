@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(147 , 66 , 245);
+}
+
+main {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
