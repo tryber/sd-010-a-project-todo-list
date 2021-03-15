@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  border: none;
+  text-align: none;
+}
+
+body {
+  padding: 8px;
+  font-family: sans-serif;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  position: absolute;
+  z-index: -1;
+}
+
+#content {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  background-color: white;
+}
+
+#center {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+p {
+  color: gray;
+  font-style: italic;
+}
+
+#funcionamento {
+  margin-bottom: 9px;
+}
+
+#submit {
+  margin-bottom: 10px;
+}
+
+#myList {
+  padding-left: 18px;
+}
+
+#texto-tarefa {
+  border: 2px solid rgb(204 , 203 , 203);
+  padding: 2px;
+}
+
+#texto-tarefa:hover {
+  box-shadow: 1px 1px 3px rgb(0 , 183 , 255);
+  border: 2px solid rgb(0 , 183 , 255);
+}
+
+.buttons {
+  color: white;
+  font-weight: 900;
+  padding: 5px;
+  margin-right: 10px;
+
+}
+
+.adiciona {
+  background-color: rgb(0 , 183 , 255);
+}
+
+.adiciona:hover {
+  background-color: rgb(0 , 162 , 255);
+}
+
+.selecionado {
+  width: 30px;
+  background-color: rgb(255 , 174 , 0);
+  text-align: center;
+}
+
+.selecionado:hover {
+  background-color: rgb(230 , 157 , 1);
+}
+
+.apaga {
+  background-color: red;
+
+}
+
+.apaga:hover {
+  background-color: rgb(212 , 0 , 0);
+}
+
+.salva {
+  background-color: rgb(0 , 170 , 0);
+}
+
+.salva:hover {
+  background-color: rgb(0 , 143 , 0);
+}
