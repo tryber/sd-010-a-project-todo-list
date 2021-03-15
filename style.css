@@ -1,0 +1,13 @@
+div {
+    background-color: white;
+    color: black;
+}
+
+li {
+    background-color:white;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
