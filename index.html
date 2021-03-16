@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="shortcut icon" href="/trybe-Logo.jpg" type="image/x-icon">
+</head>
+<body>
+  <a href=""><img id="trybeLogo" src="Trybe.png" alt="logo da Trybe"></a>
+    <section id="todo-list">
+    <header>
+      <input placeholder="Digite seu nome" type="text" name="name" id="username">
+      Sexo:
+      <label for="radio1">M</label>
+      <input value="1" type="radio" name="radio" class="radio" id="radio1">
+      <label for="radio2">F</label>
+      <input value="2" type="radio" name="radio" class="radio" id="radio2">
+      <h1>Minha Lista de Tarefas</h1>
+      <h3 id="welcome"></h3>
+      <h2 id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</h2>
+    </header>
+    <article>
+      <input id="texto-tarefa" placeholder="Digite um conteúdo do curso" type="text">
+      <button id="criar-tarefa">Adicionar</button>
+      <ol id="lista-tarefas"></ol>
+    </article>
+    <footer id="foot">
+      <button id="remover-selecionado">X</button>
+      <button id="mover-cima"><span class="material-icons">
+        keyboard_arrow_up
+        </span></button>
+      <button id="mover-baixo"><span class="material-icons">
+        keyboard_arrow_down
+        </span></button>
+        <button id="remover-finalizados">Limpar Completos</button>
+        <button id="apaga-tudo">Limpar Lista</button>
+        <button id="salvar-tarefas">Salvar</button>
+    </footer>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

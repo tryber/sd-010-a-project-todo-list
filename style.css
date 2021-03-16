@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(110, 110, 110);
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+#welcome {
+  color: blue;
+}
+
+#trybeLogo {
+  width: 200px;
+  margin-left: 10%;
+  margin-top: 1%;
+  animation: go-back 20s infinite;
+  transition: all 1s ease-in-out;
+  
+}
+
+@keyframes go-back {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(1350px);
+  }
+  35% {
+    transform: translateY(550px) translateX(1350px);
+  }
+
+  50% {
+    transform: translateX(1350px) translateY(0);
+  }
+  70% {
+    transform: translateY(0) translateX(0px);
+  }
+  85% {
+    transform: translateY(550px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.gray {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+button {
+  border-radius: 20px;
+  width: 60px;
+  height: 30px;
+  color: white;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  margin-inline-end: 15px;
+
+}
+
+
+#todo-list {
+  background-color: white;
+  width: 1000px;
+  border-radius: 50px;
+  padding: 2.5em;
+  margin-left: 22.5%;
+}
+
+#criar-tarefa {
+  border-radius: 12px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(77, 134, 228);
+  color: white;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+#criar-tarefa:hover {
+  background-color: rgb(134, 175, 241);
+}
+
+#remover-finalizados {
+  width: 150px;
+  background-color: rgb(77, 134, 228);
+}
+
+#remover-finalizados:hover {
+  background-color: rgb(140, 174, 230);
+}
+
+#mover-cima {
+  background-color: rgb(246, 113, 36);
+}
+
+#mover-cima:hover {
+  background-color: rgb(238, 162, 118);
+}
+
+#mover-baixo {
+  background-color: rgb(246, 113, 36);
+}
+
+#mover-baixo:hover {
+  background-color: rgb(238, 162, 118);
+}
+
+#remover-selecionado {
+  background-color: rgb(121, 26, 10);
+}
+
+#remover-selecionado:hover {
+  background-color: rgb(189, 110, 96);
+}
+
+#apaga-tudo {
+  width: 120px;
+  background-color: rgb(121, 26, 10);
+}
+
+#apaga-tudo:hover {
+  background-color: rgb(189, 110, 96);
+}
+
+#salvar-tarefas {
+  width: 120px;
+  background-color: rgb(13, 138, 29);
+}
+
+#salvar-tarefas:hover {
+  background-color: rgb(120, 197, 130);
+}
+
+#foot {
+  display: inline-block;
+  margin-top: 100px;
+  text-align: center;
+}
