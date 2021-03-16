@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border-radius: 50px;
+}
+
+li {
+  text-align: left;
+  margin: 2px;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 50px;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#funcionamento {
+  text-align: center;
+}
+
+.flex-center-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}

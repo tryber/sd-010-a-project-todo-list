@@ -243,7 +243,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 **O que será verificado:**
 
-- Será verificado que, ao se carregar a página, os itens da lista **não tem** o estilo CSS `background-color: rgb(128, 128, 128)`
+- Será verificado que, ao se carregar a página, os itens da lista **não tem** o estilo CSS `background-color:`
 
 - Será verificado que, ao se clicar em um item da lista, ele passa a ter o estilo CSS `background-color: rgb(128, 128, 128)`
 
