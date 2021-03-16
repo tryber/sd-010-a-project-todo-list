@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aqua;
+  font-family: Shippori Mincho, sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+#funcionamento {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+#tarefas {
+  text-align: center;
+}
+
+ol {
+  margin-left: 550px;
+  margin-top: 30px;
+  width: max-content;
+}
+
+input {
+  padding: 5px;
+  text-align: center;
+}
+
+input:hover {
+  border: 3px green solid;
+}
+
+button {
+  padding: 5px;
+  border: black 2px solid;
+  margin-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#buttons {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 400px;
+}
