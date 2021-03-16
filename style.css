@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+
+}
+header {
+    position: fixed;
+    background-color: black;
+    color:white;
+    width:100%;
+    text-align: center;
+    padding: 20px 20px;
+}
+main {
+    margin-top: 100px;
+    background-color: white;
+    min-width: 90%;
+    min-height: 80%;
+}
+
+#margin {
+    margin: 20px 20px 20px 20px;
+}
+
+form {
+    margin: 20px 20px;
+}
+
+#lista-tarefas {
+    margin: 20px 20px;
+}
+
+#buttonBox{
+    margin: 20px 20px;
+}
+
+#buttonBox button{
+    margin-left:10px;
+    width: 120px;
+    height: 30px;
+}
+
+.selected{
+    background-color: rgb(128,128,128);
+}
+
+.completed{
+    text-decoration: line-through;
+}
