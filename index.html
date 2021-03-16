@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Guilherme Sucupira - Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="blockText">
+    <h1>Minha Lista de Tarefas</h1>
+    <h2 id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</h2>
+  </header>
+  <div class="blockText">
+    <div>
+      <form method="get">
+        <input id="texto-tarefa" type="text" placeholder=" Digite uma tarefa aqui" required>
+        <button type="button" id="criar-tarefa" class="styleButton">Adicionar</button>
+      </form>
+      <ol id="lista-tarefas">
+      </ol>
+    </div>
+    <br>
+    <button type="button" id="apaga-tudo" class="styleButton">Apagar Lista</button>
+    <button type="button" id="remover-finalizados" class="styleButton">Limpar Completos</button>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
