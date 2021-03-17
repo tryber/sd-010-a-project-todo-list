@@ -1,0 +1,8 @@
+#criar-tarefa {
+  border-style: groove;
+}
+
+#lista-tarefas li {
+  border: groove;
+  border-color: solid;
+}
