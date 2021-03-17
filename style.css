@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(247, 245, 246);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+header {
+  border: 1.5px solid blue;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 20px;
+  background-color: rgb(250, 241, 253);
+}
+
+main {
+  border: 1.5px solid blueviolet;
+  background-color: rgba(242, 242, 243, 0.918);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+p {
+  margin: 20px;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#texto-tarefa {
+  border-radius: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 25px;
+}
+
+#criar-tarefa {
+  background-color: rgb(226, 152, 187);
+  color: azure;
+}
+
+#buttons div{
+  display: inline-block; 
+}
+
+#apaga-tudo , #remover-finalizados , #criar-tarefa {
+  border-radius: 8px;
+  height: 25px;
+  width: 90px;
+  color: azure;
+  margin: 5px;
+}
+
+#apaga-tudo , #remover-finalizados {
+  background-color: rgb(245, 153, 153);
+}
