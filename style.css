@@ -1,0 +1,11 @@
+main {
+  background-color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+main li {
+  background-color: white;
+}
