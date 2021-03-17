@@ -1,0 +1,17 @@
+.elementSelected {
+  background-color: rgb(128,128,128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#criar-tarefa {
+  background-color: green;
+  color: aliceblue;
+}
+
+#apaga-tudo {
+  background-color: red;
+  color: aliceblue;
+}
