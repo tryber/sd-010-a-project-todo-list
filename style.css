@@ -1,0 +1,22 @@
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: sans-serif;
+}
+
+#criar-tarefa {
+  background-color: green;
+  color: white;
+  border-radius: 2em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through black;
+}
+
