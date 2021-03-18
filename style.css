@@ -1,0 +1,56 @@
+
+body {
+  border: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  background-color: cadetblue;
+}
+
+header {
+  color:blacksss;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder; 
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+#texto-tarefa {
+  width: 425px;
+  justify-content: center;
+}
+
+.conteiner-pai {
+  background-color: rgb(245, 187, 197);
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  width: 700px;
+  height: 500px;
+  border: solid 1px black;
+}
+
+#funcionamento {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.completed {
+  text-decoration:line-through;
+}
+
+.backgroudLista {
+  background-color: rgb(128, 128, 128);
+}
