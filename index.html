@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>To Do List</title>
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+    <p id="funcionamento">
+      Clique duas vezes em um item para marcá-lo como completo.
+    </p>
+  </header>
+  <article>
+    <form>
+      <label for="texto-tarefa">Entre com a tarefa:
+        <input type="text" name="tarefa" id="texto-tarefa" placeholder="Digite a tarefa deseja aqui ...">
+      </label>
+      <button type="button" id="criar-tarefa">Adicionar tarefa</button>
+    </form>
+    <section>
+      <ol id="lista-tarefas"></ol>
+    </section>
+    <section>
+      <button type="button" id="salvar-tarefas">Salvar tarefas</button>
+      <button type="button" id="apaga-tudo">Apagar tarefas</button>
+      <button type="button" id="remover-finalizados">Remover tarefas finalizadas </button>
+      <button type="button" id="remover-selecionado">Remover tarefa selecionada</button>
+      <button type="button" id="mover-cima">▲</button>
+      <button type="button" id="mover-baixo">▼</button>
+    </section>
+  </article>
+  <footer>
+    <p>Página desenvolvida por <a href='https://github.com/diogomarin' target="_blank">Diogo Marin</a> em Março de 2021.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

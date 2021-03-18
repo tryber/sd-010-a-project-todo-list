@@ -1,0 +1,7 @@
+.completed {
+  text-decoration: line-through solid black;
+}
+
+li {
+  padding: 10px;
+}
