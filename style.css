@@ -1,0 +1,13 @@
+* {
+    margin-left: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backColor {
+    background-color: rgb(128, 128, 128);
+}
+
+.completed {
+    text-decoration : line-through solid rgb(0, 0, 0);
+}
