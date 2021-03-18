@@ -1,0 +1,13 @@
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#lista-tarefas {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ header {
+  text-align: center;
+  
+}
