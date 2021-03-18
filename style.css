@@ -1,0 +1,71 @@
+header {
+  background-color: rgb(43 , 128 , 153);
+  height: 95px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+#title {
+  color: white;
+  font-size: 35px;
+  font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  margin-top: 30px;
+}
+
+#funcionamento {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  margin-top: -25px;
+  margin-left: 82px;
+}
+
+#desenvolvedor {
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#logo-trybe {
+  display: inline-block;
+  height: 45px;
+  padding-top: 10px;
+}
+
+.label {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#texto-tarefa {
+  margin-top: 120px;
+  margin-left: 5px;
+  width: 450px;
+  padding: 10px;
+}
+
+#criar-tarefa {
+  margin-left: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
