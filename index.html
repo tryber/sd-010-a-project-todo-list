@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <section>
+        <input type="text" id="texto-tarefa" placeholder="Digite o que deseja acrescentar">
+        <button id="criar-tarefa">Criar tarefa</button>
+        <ol id="lista-tarefas" class="all-tasks"></ol>
+    </section>
+    <section>
+        <button id="apaga-tudo">Apaga tudo</button>
+        <button id="remover-finalizados">Remove tarefas finalizadas</button>    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
