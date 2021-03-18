@@ -1,0 +1,62 @@
+body {
+  margin: 25px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: monospace;
+  text-align: center;
+  color: gray;
+  text-decoration-line: underline;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 25px;
+  border-color: gray;
+  color: antiquewhite;
+  background-color: purple;
+  width: 180px;
+  height: 45px;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 15px;
+  border-color: purple;
+  border-width: 3px;
+  height: 35px;
+  color: purple;
+  font-size: x-large;
+}
+
+#texto-tarefa {
+  text-align: center;
+  width: 500px;
+}
+
+#lista-tarefas {
+  list-style: none;
+  width: 500px;
+}
+
+.selected {
+  background-color: rgb(128 , 128 , 128);
+}
+
+ol {
+  font-size: x-large;
+}
+
+li {
+  font-size: x-large;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0 , 0 , 0);
+  color: purple;
+}
+
+.bigButton {
+  height: 55px;
+}
