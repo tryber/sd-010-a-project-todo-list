@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(0 , 161 , 157);
+  font-family: Reenie Beanie, cursive;
+  text-align: center;
+}
+
+header {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+input {
+  font-family: Reenie Beanie, cursive;
+  font-size: 30px;
+}
+
+button {
+  font-family: Reenie Beanie, cursive;
+  font-size: 25px;
+  background-color: rgb(252 , 108 , 132);
+}
+
+ol {
+  font-size: 35px;
+}
