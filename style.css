@@ -1,0 +1,11 @@
+h1 {
+  font-family: Lucida Sans, sans-serif;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
