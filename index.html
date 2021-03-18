@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UFT-8'>
+<title>Trybo DOM</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header><h2>Minha Lista de Tarefas</h2></header>
+<p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+<button id='criar-tarefa' onclick="adicionarElemento();">Criar tarefa</button>
+<button id='apaga-tudo' onclick="excluirTodosElementosDaMesmaClasseOuId ('.tarefa')">Apaga tudo</button>
+<button id='remover-finalizados' onclick="excluirTodosElementosDaMesmaClasseOuId ('.completed')">Remover finalizados</button>
+<button id='remover-selecionado' onclick="excluirTodosElementosDaMesmaClasseOuId ('.selected')">Remover selecionado</button>
+<button id='salvar-tarefas' onclick="excluirTodosElementosDaMesmaClasseOuId ('.completed')">Salvar tarefas</button>
+<button id='mover-cima' onclick="excluirTodosElementosDaMesmaClasseOuId ('.completed')">Mover para cima</button>
+<button id='mover-baixo' onclick="excluirTodosElementosDaMesmaClasseOuId ('.completed')">Mover para baixo</button>
+<br>
+<br>
+<br>
+<input id='texto-tarefa' type='text' name='tarefa' placeholder="Digite a sua tarefa">
+<ol id='lista-tarefas'>
+</ol>
+<h2>Cor do elemento pai</h2>
+<script src='script.js'> </script>
+</body>
+</html>
