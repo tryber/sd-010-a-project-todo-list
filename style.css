@@ -1,0 +1,26 @@
+#funcionamento {
+    font-size: small;
+
+}
+
+#criar-tarefa{
+    width: 50px;
+    height: 30px;
+}
+
+#texto-tarefa{
+    border: solid black 1px;
+    display: inline-block;
+}
+
+.selected{
+    background-color: rgb(128, 128, 128)
+}
+
+#criar-tarefa{
+    display: inline-block
+}
+
+.completed{
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
