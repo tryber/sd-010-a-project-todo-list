@@ -1,0 +1,54 @@
+#apaga-tudo {
+  border: 2px solid rgb(0 153 255);
+  border-radius: 15px;
+  background-color: rgb(0 153 255);
+  color: rgb(255 255 255);
+  margin-left: 10px;
+}
+
+#criar-tarefa {
+  border: 2px solid rgb(0 153 255);
+  border-radius: 15px;
+  background-color: rgb(0 153 255);
+  color: rgb(255 255 255);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0 0 0);
+}
+
+#container-buttons {
+  margin-top: 25px;
+}
+
+#funcionamento {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+#remover-finalizados {
+  border: 2px solid rgb(0 153 255);
+  border-radius: 15px;
+  background-color: rgb(0 153 255);
+  color: rgb(255 255 255);
+}
+
+#remover-selecionado {
+  border: 2px solid rgb(0 153 255);
+  border-radius: 15px;
+  background-color: rgb(0 153 255);
+  color: rgb(255 255 255);
+}
+
+#salvar-tarefas {
+  border: 2px solid rgb(0 153 255);
+  border-radius: 15px;
+  background-color: rgb(0 153 255);
+  color: rgb(255 255 255);
+  margin-left: 10px;
+}
+
+#texto-tarefa:hover {
+  border: 2px solid rgb(0 153 255);
+  border-radius: 2px;
+}
