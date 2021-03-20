@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(32 , 32 , 32);
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+header h1 {
+  color: rgb(0 , 102 , 255);
+}
+
+#div-main {
+  width: 600px;
+  height: auto;
+  background-color: rgb(125 , 207 , 203);
+  display: inline-block;
+  border-radius: 15px;
+}
+
+p {
+  font-size: 15px;
+  font-family: monospace, sans-serif;
+  color: rgb(34 , 33 , 33);
+}
+
+#forms {
+  display: inline-block;
+}
+
+#criar-tarefa {
+  display: inline-block;
+}
+
+.selected-task {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#lista-tarefas {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+}
+
+#buttons {
+  margin-top: 15px;
+}
