@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+  <header class="header">
+    <h1 class="header__title">Minha Lista de Tarefas</h1>
+    <p id="funcionamento" class="header__paragraph">Clique duas vezes em um item para marcá-lo como completo</p>
+  </header>
+
+  <div class="tasks-container">
+    <div class="task-add">
+      <input class="task-add__input" type="text" name="tarefa" id="texto-tarefa">
+      <button class="task-add__button btn" id="criar-tarefa">Adicionar</button>
+    </div>
+    
+    <div class="tasks">
+      <ol class="tasks__list" id="lista-tarefas"></ol>
+    </div>
+  </div>
+  
+  <div class="action">
+    <button class="action__clean btn" id="apaga-tudo">Limpar Lista</button>
+    <button class="action__finishedRemove btn" id="remover-finalizados">Limpar Completos</button>
+    <button class="action__save btn" id="salvar-tarefas">Salvar</button>
+    <button class="action__moveUp btn" id="mover-cima">Mover para cima</button>
+    <button class="action__moveDown btn" id="mover-baixo">Mover para baixo</button>
+    <button class="action__selectedRemove btn" id="remover-selecionado">Remover Selecionado</button>
+  </div>
+
+</body>
+</html>

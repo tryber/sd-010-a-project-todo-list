@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html , body , div , h1 , h2 , p , ol , ul , li , header , table , tr , td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: 100% inherit;
+  vertical-align: baseline;
+}
+
+header {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: rgb(246 , 247 , 249);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Minha configuração  */
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  background-color: gray;
+}
+
+/* Header */
+.header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10vh 40px;
+  background-color: rgb(35 , 67 , 97);
+  margin-bottom: 10px;
+  color: rgb(253 , 253 , 254);
+}
+
+.header__title {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.header__paragraph {
+  font-weight: 600;
+}
+
+.tasks {
+  margin: 20px;
+}
+
+.tasks-container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: grid;
+  padding-top: 60px;
+}
+
+.tasks__item {
+  color: rgb(37 , 44 , 75);
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.task-add {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.task-add__input {
+  padding: 8px;
+  font-size: 1.2em;
+}
+
+.action {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background-color: rgb(43 , 127 , 204);
+  color: rgb(253 , 253 , 254);
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
