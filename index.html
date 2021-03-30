@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+    </header>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <input id="texto-tarefa">
+    <ol id="lista-tarefas"></ol>
+
+    <button id="criar-tarefa">Adicionar</button>
+    
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- Codigo baseado na solução encontrada pelo Junior Portela - Turma 10 A -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Minha lista de tarefas</title>
+</head>
+<body>
+  <div id="main-content">
+    <header>
+    <div><h1>Minha Lista de Tarefas</h1></div>
+    <div id='funcionamento'><p>Clique duas vezes em um item para marcá-lo como completo</p></div>
+    <form id="criar-tarefa">
+    <input type="text" id="texto-tarefa" placeholder="Insira sua tarefa" value="">
+    <button type ="button" id="criar-tarefa" class="botao-tarefa">Criar Tarefa</button>
+    </form>
+    <ol id="lista-tarefas"></ol>
+    <div class="button-container">
+    <button type ="button" id="apaga-tudo">Limpar</button>
+    <button type="button" id="remover-finalizados">Concluídos</button>
+    <button type="button" id="salvar-tarefas">Salvar Tarefas</button>
+    <button type="button" id="remover-selecionado">Remover selecionados</button>
+    </div>
+    </header>
+  </div>
+  <script src="script.js" ></script>
+</body>
+</html> 
