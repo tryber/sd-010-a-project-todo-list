@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(247 , 244 , 244);
+}
+
+li {
+  margin-top: 5px;
+}
+
+.selectLi {
+  background-color: gray;
+}
+
+#lista-tarefas {
+  width: fit-content;
+  background-color: rgb(247 , 244 , 244);
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
