@@ -1,0 +1,33 @@
+* {
+  font-size: 14px;
+}
+
+button {
+  border-radius: 10%;
+  border: solid 1px white;
+  color: teal;
+}
+
+#apaga-tudo {
+  color: red;
+}
+
+#remover-finalizados {
+  color: orange;
+}
+
+.selected {
+  background-color: rgb(128 , 128 , 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#salvar-tarefas {
+  color: black;
+}
+
+#mover-baixo {
+  color: red;
+}
