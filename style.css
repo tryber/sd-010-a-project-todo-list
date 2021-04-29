@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+
+#input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 25px;
+}
+
+#texto-tarefa {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+#button-field {
+  margin: 15px 0 0;
+}
+
+#list-section {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+#move-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.selected {
+  background-color: grey;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
