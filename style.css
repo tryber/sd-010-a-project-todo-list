@@ -1,0 +1,35 @@
+#funcionamento {}
+
+#texto-tarefa {
+  margin-right: 10px;
+}
+
+#ordened-list {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 40%;
+}
+
+#selected-list {
+  background-color: rgb(128, 128, 128);
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 40%;
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0,0,0);
+}
+
+#apaga-tudo {
+  margin-left: 10px;
+}
+
+#remover-finalizados {
+  margin-left: 10px;
+}
+
+#salvar-tarefas {
+  margin-left: 10px;
+}
